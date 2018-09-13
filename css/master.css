@@ -1,21 +1,42 @@
-#navigation-bar li{
+
+
+.navigation-bar{
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  width: 100%;
+  background-color: grey;
+}
+
+.navigation-bar li{
   display: inline;
   padding: 20px;
   border:1px solid:red;
   margin-right: 5px;
-  position: relative;
 }
 
-#navigation-bar a{
-color: green;
+.navigation-bar a{
+color: purple;
 padding: 20px;
 display: inline-block;
 text-decoration: none;
 }
 
+.navigation-bar a:hover{
+background-color: yellow;
+}
+
+#About-Hassan{
+padding-top: 75px;
+
+}
+
+
 #About-Hassan article{
   background-color: #b2b2b2;
-  border-left: 6px solid yellow;
+  border-left: 6px solid purple;
   margin: 20px;
 }
 
@@ -24,13 +45,16 @@ display: inline;
 padding: 6px;
 margin: 10px;
 background-color: #00BFFF;
+border-style: solid;
 }
 
 #About-Hassan a{
   text-decoration: none;
   color: black;
-  border-style: solid;
-  padding: 10px;
+}
+
+#About-Hassan p{
+padding: 5px;
 }
 
 #personal-photo{
@@ -60,7 +84,7 @@ body {
   margin: 3px;
 }
 
-#navigation-bar{
-  padding: 0px;
-  margin: 0px;
+#learning-blog{
+  background-image: url("https://cdn.the-scientist.com/assets/articleNo/64395/iImg/27151/e9288567-3528-403e-b635-72c0a6511d08-sun.jpg")
+  /* background-size: cover; */
 }
