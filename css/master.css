@@ -1,0 +1,29 @@
+
+
+ul{
+background-color: black;
+border: 1px solid green
+
+}
+
+li{
+display: inline;
+  padding: 10px;
+border:1px solid:red;
+margin-right: 5px;
+text-decoration-color: white;
+}
+
+body {
+background-color: #b6a921;
+text-align: center;
+font-family: "EYInterstate Light", Helvetica, sans-serif;
+
+a{
+text-decoration: none;
+}
+
+
+
+
+}
